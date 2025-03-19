@@ -185,8 +185,6 @@
     topicButtons.forEach(button => {
         button.addEventListener('click', async () => {
             const topic = button.getAttribute('data-topic');
-            
-            // Alert and Console Log when topic is selected
             alert(`Fetching news for ${topic}...`);
             console.log(`User selected topic: ${topic}`);
 
